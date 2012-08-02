@@ -1,0 +1,12 @@
+id: 'PageNumber'
+name: 'Page Number'
+version: '1.0'
+description: 'Outputs the Previous, Next and Current page number.'
+author_name: 'Taichi Kaminogoya'
+author_link: 'https://github.com/kaminogoya'
+
+tags:
+  function:
+    CurrentPageNumber: $PageNumber::PageNumber::Tags::_hdlr_current_page_number
+    PreviousPageNumber: $PageNumber::PageNumber::Tags::_hdlr_previous_page_number
+    NextPageNumber: $PageNumber::PageNumber::Tags::_hdlr_next_page_number
